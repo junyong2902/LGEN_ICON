@@ -1,0 +1,32 @@
+{
+    "type": "checkbox",
+    "name": "Question1_D_1_1",
+    "title": "Q. 'Build Grading Sheet' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+    "isRequired": true,
+    "showOtherItem": true,
+    "colCount": 4,
+    "choices": ["Test Plan", "개요", "Jig Formation", "Degas", "Site", "결과서", "App.wtp무게",],
+    "storeOthersAsComment": true,
+  },
+
+  {
+    "type": "checkbox",
+    "name": "Question1_D_1_1_1",
+    "title": "Q. 'Test Plan' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+    "isRequired": true,
+    "showOtherItem": true,
+    "colCount": 4,
+    "choices": ["EL", "Chemistry", "Cell 수량", "Test Start/End", "작업/측정",],
+    "storeOthersAsComment": true,
+  },
+
+  {
+    "type": "checkbox",
+    "name": "Question1_D_1_1_2",
+    "title": "Q. 'Test Plan' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+    "isRequired": true,
+    "showOtherItem": true,
+    "colCount": 4,
+    "choices": ["Test Name", "Chemistry", "Cell 수량", "Test Start/End", "작업/측정",],
+    "storeOthersAsComment": true,
+  },
