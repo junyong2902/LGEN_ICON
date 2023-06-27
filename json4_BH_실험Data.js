@@ -152,48 +152,7 @@ export const json4 = {
 
         ]
       },
-      {
-        "name": "Build Grading Sheet",
-        "navigationTitle": "Build Grading Sheet",
-        "visibleIf": " {Question1} contains 'Build Grading Sheet'",
-        "elements": [
-          {
-            "type": "html",
-            "name": "info",
-            "html": "<pre style='color:red; font-family:fontESR; font-size:25px;'>다음은 'Mn-rich' 유형에 대한 핵심정보를 식별하기 위한 질문 입니다.아래의 표에 따른 개발단계별 기준을 참고하여 산출물 및 정보의 중요도를 판단하여 주시기 바랍니다.<br></br><table  border-color:red;><tr><th><pre style='color:red; font-family:fontESR; font-size:18px; '>BR, CV, DV 단계에서의 핵심정보 중요도 판단기준</th><th><pre style='color:red; font-family:fontESR; font-size:18px;'>PD, PV 단계에서의 핵심정보 중요도 판단기준</th></tr><tr><td><pre style='color:red; font-family:fontESR; font-size:18px;'>- 당사만의 획기적인 원가절감, 품질향상을 위한 제품 설계 정보<br><pre style='color:red; font-family:fontESR; font-size:18px;'>- (유출시) 고객/시장 Needs를 단기간에 충족 가능한 제품 설계 정보<br><pre style='color:red; font-family:fontESR; font-size:18px;'>- (유출시) 개발 기간을 획기적으로 줄일 수 있는 정보</td><td><pre style='color:red; font-family:fontESR; font-size:18px;'>- 당사만의 획기적인 원가절감, 품질향상을 위한 新 공정/설비기술과 관련된 정보<br><pre style='color:red; font-family:fontESR; font-size:18px;'>- 당사만의 Capa, 품질, 수율, 가동율 향상 Knowhow가 반영된 정보<br><pre style='color:red; font-family:fontESR; font-size:18px;'>- (유출시) 경쟁사가 품질/수율을 빠르게 높일 수 있는 정보</td></tr></table></pre>"
-          },
-          {
-            "type": "panel",
-            "name": "ProcessBox_Build Grading Sheet",
-            "elements": [
-              {
-                "type": "html",
-                "indent": 2,
-                "name": "info",
-                "visibleIf": "{Question1} contains 'Build Grading Sheet'",
-                "html": "<div style='display: flex; justify-content: center; align-items: center; border: 1px; border-radius: 5px; width: 300; height: 50px; color: white; font-family: fontESR; font-size: 15px; background-color: #c5003d; padding: 10px;'>Build Grading Sheet</div>"
-              },
-            ]
-          },
-          {
-            "type": "panel",
-            "name": "Build Grading Sheet_Question",
-            "elements": [
-              {
-                "type": "checkbox",
-                "name": "Question1_A_1",
-                "indent": 2,
-                "title": "Q1. 'Build Grading Sheet'의 어떤 정보가 업무상 중요하게 취급됩니까?",
-                "isRequired": true,
-                "colCount": 4,
-                "showOtherItem": true,
-                "choices": ["Test Plan","Jig Formation", "Degas", "Site", "결과서", "App.wtp무게"],
-                "storeOthersAsComment": false
-              },
-            ]
-          },
-        ]
-        },
+
         {
           "name": "Cycle Data Sheet",
           "navigationTitle": "Cycle Data Sheet",
