@@ -226,6 +226,7 @@ export const json5 = {
               {
                 "type": "checkbox",
                 "name": "Question1_A",
+                "indent": 2,
                 "title": "Q1. '품의서 (개발발의 품의서)'의 어떤 정보가 업무상 중요하게 취급됩니까?",
                 "isRequired": true,
                 "colCount": 4,
@@ -236,6 +237,7 @@ export const json5 = {
               {
                 "type": "checkbox",
                 "name": "Question1_A_1",
+                "indent": 2,
                 "title": "Q1-1. 'Kick-off 회의록' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                 "isRequired": true,
                 "colCount": 4,
@@ -278,6 +280,7 @@ export const json5 = {
                 {
                   "type": "checkbox",
                   "name": "Question1_B",
+                  "indent": 2,
                   "title": "Q1. '개발 계획서'의 어떤 정보가 업무상 중요하게 취급됩니까?",
                   "isRequired": true,
                   "colCount": 4,
@@ -288,6 +291,7 @@ export const json5 = {
                 {
                   "type": "checkbox",
                   "name": "Question1_B_1",
+                  "indent": 2,
                   "title": "Q1-1. '제품 Concept 설계안' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                   "isRequired": true,
                   "colCount": 4,
@@ -330,6 +334,7 @@ export const json5 = {
                   {
                     "type": "checkbox",
                     "name": "Question1_C",
+                    "indent": 2,
                     "title": "Q1. '부품 개발 계획서 (부품 개발 등급 포함)'의 어떤 정보가 업무상 중요하게 취급됩니까?",
                     "isRequired": true,
                     "colCount": 4,
@@ -340,6 +345,7 @@ export const json5 = {
                   {
                     "type": "checkbox",
                     "name": "Question1_C_1",
+                    "indent": 2,
                     "title": "Q1-1. '원재료 수급 계획' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                     "isRequired": true,
                     "colCount": 4,
@@ -351,7 +357,8 @@ export const json5 = {
                   {
                     "type": "checkbox",
                     "name": "Question1_C_2",
-                    "title": "Q1-1. '재료 PPAP 일정' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                    "indent": 2,
+                    "title": "Q1-2. '재료 PPAP 일정' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                     "isRequired": true,
                     "colCount": 4,
                     "showOtherItem": true,
@@ -393,6 +400,7 @@ export const json5 = {
                     {
                       "type": "checkbox",
                       "name": "Question1_D",
+                      "indent": 2,
                       "title": "Q1. '안전/환경/품질 조사서'의 어떤 정보가 업무상 중요하게 취급됩니까?",
                       "isRequired": true,
                       "colCount": 4,
@@ -403,6 +411,7 @@ export const json5 = {
                     {
                       "type": "checkbox",
                       "name": "Question1_D_1",
+                      "indent": 2,
                       "title": "Q1-1. '사용환경 조사표' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                       "isRequired": true,
                       "colCount": 4,
@@ -414,7 +423,8 @@ export const json5 = {
                     {
                       "type": "checkbox",
                       "name": "Question1_D_2",
-                      "title": "Q1-1. '안전성 Checklist' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                      "indent": 2,
+                      "title": "Q1-2. '안전성 Checklist' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                       "isRequired": true,
                       "colCount": 4,
                       "showOtherItem": true,
@@ -456,6 +466,7 @@ export const json5 = {
                       {
                         "type": "checkbox",
                         "name": "Question1_E",
+                        "indent": 2,
                         "title": "Q1. 'Gate Review'의 어떤 정보가 업무상 중요하게 취급됩니까?",
                         "isRequired": true,
                         "colCount": 4,
@@ -466,6 +477,7 @@ export const json5 = {
                       {
                         "type": "checkbox",
                         "name": "Question1_E_1",
+                        "indent": 2,
                         "title": "Q1-1. '실무자 회의록' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                         "isRequired": true,
                         "colCount": 4,
@@ -477,7 +489,8 @@ export const json5 = {
                       {
                         "type": "checkbox",
                         "name": "Question1_E_2",
-                        "title": "Q1-1. 'PD 품평회 회의록' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                        "indent": 2,
+                        "title": "Q1-2. 'PD 품평회 회의록' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                         "isRequired": true,
                         "colCount": 4,
                         "showOtherItem": true,
@@ -488,7 +501,8 @@ export const json5 = {
                       {
                         "type": "checkbox",
                         "name": "Question1_E_3",
-                        "title": "Q1-1. 'RWW 자료' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                        "indent": 2,
+                        "title": "Q1-3. 'RWW 자료' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                         "isRequired": true,
                         "colCount": 4,
                         "showOtherItem": true,
@@ -499,7 +513,8 @@ export const json5 = {
                       {
                         "type": "checkbox",
                         "name": "Question1_E_4",
-                        "title": "Q1-1. 'Gate Check Sheet' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                        "indent": 2,
+                        "title": "Q1-4. 'Gate Check Sheet' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                         "isRequired": true,
                         "colCount": 4,
                         "showOtherItem": true,
@@ -510,7 +525,8 @@ export const json5 = {
                       {
                         "type": "checkbox",
                         "name": "Question1_E_5",
-                        "title": "Q1-1. 'CV Gate Review' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                        "indent": 2,
+                        "title": "Q1-5. 'CV Gate Review' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                         "isRequired": true,
                         "colCount": 4,
                         "showOtherItem": true,
@@ -521,7 +537,8 @@ export const json5 = {
                       {
                         "type": "checkbox",
                         "name": "Question1_E_6",
-                        "title": "Q1-1. 'DV Gate Review' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                        "indent": 2,
+                        "title": "Q1-6. 'DV Gate Review' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                         "isRequired": true,
                         "colCount": 4,
                         "showOtherItem": true,
@@ -532,7 +549,8 @@ export const json5 = {
                       {
                         "type": "checkbox",
                         "name": "Question1_E_7",
-                        "title": "Q1-1. 'PD Gate Review' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                        "indent": 2,
+                        "title": "Q1-7. 'PD Gate Review' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                         "isRequired": true,
                         "colCount": 4,
                         "showOtherItem": true,
@@ -543,7 +561,8 @@ export const json5 = {
                       {
                         "type": "checkbox",
                         "name": "Question1_E_8",
-                        "title": "Q1-1. 'Concept Verification' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                        "indent": 2,
+                        "title": "Q1-8. 'Concept Verification' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                         "isRequired": true,
                         "colCount": 4,
                         "showOtherItem": true,
@@ -554,7 +573,8 @@ export const json5 = {
                       {
                         "type": "checkbox",
                         "name": "Question1_E_9",
-                        "title": "Q1-1. '체크리스트 점검 결과' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                        "indent": 2,
+                        "title": "Q1-9. '체크리스트 점검 결과' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                         "isRequired": true,
                         "colCount": 4,
                         "showOtherItem": true,
@@ -596,6 +616,7 @@ export const json5 = {
                         {
                           "type": "checkbox",
                           "name": "Question1_F",
+                          "indent": 2,
                           "title": "Q1. '제품사양서'의 어떤 정보가 업무상 중요하게 취급됩니까?",
                           "isRequired": true,
                           "colCount": 4,
@@ -606,6 +627,7 @@ export const json5 = {
                         {
                           "type": "checkbox",
                           "name": "Question1_F_1",
+                          "indent": 2,
                           "title": "Q1-1. 'Raw Material List' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                           "isRequired": true,
                           "colCount": 4,
@@ -617,7 +639,8 @@ export const json5 = {
                         {
                           "type": "checkbox",
                           "name": "Question1_F_2",
-                          "title": "Q1-1. 'Separator & Electrode Process' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                          "indent": 2,
+                          "title": "Q1-2. 'Separator & Electrode Process' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                           "isRequired": true,
                           "colCount": 4,
                           "showOtherItem": true,
@@ -628,7 +651,8 @@ export const json5 = {
                         {
                           "type": "checkbox",
                           "name": "Question1_F_3",
-                          "title": "Q1-1. 'Electrode Storage Period' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                          "indent": 2,
+                          "title": "Q1-3. 'Electrode Storage Period' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                           "isRequired": true,
                           "colCount": 4,
                           "showOtherItem": true,
@@ -639,7 +663,8 @@ export const json5 = {
                         {
                           "type": "checkbox",
                           "name": "Question1_F_4",
-                          "title": "Q1-1. '제품 규격서' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                          "indent": 2,
+                          "title": "Q1-4. '제품 규격서' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                           "isRequired": true,
                           "colCount": 4,
                           "showOtherItem": true,
@@ -681,6 +706,7 @@ export const json5 = {
                           {
                             "type": "checkbox",
                             "name": "Question1_G",
+                            "indent": 2,
                             "title": "Q1. 'BOM'의 어떤 정보가 업무상 중요하게 취급됩니까?",
                             "isRequired": true,
                             "colCount": 4,
@@ -691,6 +717,7 @@ export const json5 = {
                           {
                             "type": "checkbox",
                             "name": "Question1_G_1",
+                            "indent": 2,
                             "title": "Q1-1. 'Cell information' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                             "isRequired": true,
                             "colCount": 4,
@@ -702,7 +729,8 @@ export const json5 = {
                           {
                             "type": "checkbox",
                             "name": "Question1_G_2",
-                            "title": "Q1-1. '생산원단위 표' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                            "indent": 2,
+                            "title": "Q1-2. '생산원단위 표' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                             "isRequired": true,
                             "colCount": 4,
                             "showOtherItem": true,
@@ -713,7 +741,8 @@ export const json5 = {
                           {
                             "type": "checkbox",
                             "name": "Question1_G_3",
-                            "title": "Q1-1. '자재별 Net 소요량 표' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                            "indent": 2,
+                            "title": "Q1-3. '자재별 Net 소요량 표' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
                             "isRequired": true,
                             "colCount": 4,
                             "showOtherItem": true,
