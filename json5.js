@@ -240,7 +240,10 @@ export const json5 = {
                 "isRequired": true,
                 "colCount": 4,
                 "showOtherItem": true,
+<<<<<<< HEAD
                 "visibleIf": "{Question1} contains '품의서 (개발발의 품의서)' and {Question1_A} contains 'Kick-off 회의록'",
+=======
+>>>>>>> 43fb3d942c38d769c7cf52cae7b614cfc4562ee9
                 "choices": ["이슈 및 논의사항", "담당부서 및 일정"],
                 "storeOthersAsComment": false
               },
@@ -248,6 +251,7 @@ export const json5 = {
           },
         ]
         },
+<<<<<<< HEAD
         {
           "name": "개발 계획서",
           "navigationTitle": "개발 계획서",
@@ -726,5 +730,9 @@ export const json5 = {
                     ]
                     },
                     ]
+=======
+        
+    ]
+>>>>>>> 43fb3d942c38d769c7cf52cae7b614cfc4562ee9
   
 }
