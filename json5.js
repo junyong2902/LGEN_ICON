@@ -219,8 +219,35 @@ export const json5 = {
               },
             ]
           },
+          {
+            "type": "panel",
+            "name": "품의서 (개발발의 품의서)_Question",
+            "elements": [
+              {
+                "type": "checkbox",
+                "name": "Question1_A",
+                "title": "Q1. '품의서 (개발발의 품의서)'의 어떤 정보가 업무상 중요하게 취급됩니까?",
+                "isRequired": true,
+                "colCount": 4,
+                "showOtherItem": true,
+                "choices": ["Kick-off 회의록",],
+                "storeOthersAsComment": false
+              },
+              {
+                "type": "checkbox",
+                "name": "Question1_A_1",
+                "title": "Q1-1. 'Kick-off 회의록' 내 어떤 정보가 업무상 중요하게 취급됩니까? (중복선택 가능)",
+                "isRequired": true,
+                "colCount": 4,
+                "showOtherItem": true,
+                "choices": ["이슈 및 논의사항", "담당부서 및 일정"],
+                "storeOthersAsComment": false
+              },
+            ]
+          },
         ]
-        }
+        },
+        
     ]
   
 }
